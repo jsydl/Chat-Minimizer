@@ -10,6 +10,6 @@ A small Fabric client mod for Minecraft **1.21.8** that lets you selectively hid
 
 Settings save in `config/chatminimizer.json`.
 
-**Source:** https://github.com/jsydl/Chat-Minimizer  
+**Links:** https://modrinth.com/mod/command-stopper  
 **Author:** jsydl  
 **License:** MIT
