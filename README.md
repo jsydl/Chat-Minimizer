@@ -8,7 +8,7 @@ A small Fabric client mod for Minecraft **1.21.8** that lets you selectively hid
 - `/minimizechat false` — restore vanilla behavior.
 - `/minimizechat backfill off|all|commands|chat` — control what buffered lines flush when you open chat.
 
-Settings persist in `config/chatminimizer.json`.
+Settings save in `config/chatminimizer.json`.
 
 **Source:** https://github.com/jsydl/Chat-Minimizer  
 **Author:** jsydl  
