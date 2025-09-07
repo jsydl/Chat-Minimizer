@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "chatminimizer",
+  "version": "v1.0.0",
+  "name": "Chat Minimizer",
+  "description": "Hide chat selectively (all/commands/chat) and backfill on open.",
+  "authors": ["jsydl"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.chatminimizer.ChatMinimizerClient"
+    ]
+  },
+  "mixins": [
+    "chatminimizer.mixins.json"
+  ],
+  "icon": "assets/chatminimizer/icon.png",
+  "contact": {
+    "sources": "https://github.com/jsydl/Chat-Minimizer"
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric": "*",
+    "minecraft": "~1.21.8",
+    "java": ">=21"
+  }
+}

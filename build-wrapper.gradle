@@ -1,0 +1,7 @@
+plugins {
+    // no plugins; just define a wrapper task explicitly
+}
+tasks.register("wrapper", Wrapper) {
+    gradleVersion = "8.14.0"
+    distributionType = Wrapper.DistributionType.ALL
+}
